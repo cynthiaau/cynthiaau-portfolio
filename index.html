@@ -1,1 +1,163 @@
-"Hello World" 
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<title>Cynthia Au | Software Engineer</title>
+		<meta name="description" content="Cynthia Au's personal website" />
+		<meta name="author" content="Cynthia Au" />
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/styles.css?v=1.0" />
+		<link rel="stylesheet" href="index.css" />
+
+		<!-- Styles -->
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet" />
+
+		<!-- Scripts -->
+		<script src="https://kit.fontawesome.com/c9556b6944.js" crossorigin="anonymous"></script>
+		<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" /> -->
+		<script src="js/scripts.js"></script>
+	</head>
+
+	<body>
+		<!-- Navigation bar -->
+		<div class="nav-bar">
+			<a href="#home" class="nav-options">HOME</a>
+			<a href="#about" class="nav-options">ABOUT</a>
+			<a href="#experience" class="nav-options">EXPERIENCE</a>
+			<a href="#projects" class="nav-options">PROJECTS</a>
+			<a href="#contact" class="nav-options">CONTACT</a>
+		</div>
+
+		<!-- Home -->
+		<div class="home" id="home">
+			<span>
+				<b>Cynthia Au</b><br />
+				<p class="subtext">
+					Software Engineer
+				</p>
+
+				<a href="mailto:auc2@uci.edu" target="_blank" class="icon-link">
+					<i class="fas fa-envelope"></i>
+				</a>
+				<a href="https://github.com/cynthiaau" target="_blank" class="icon-link">
+					<i class="fab fa-github"></i>
+				</a>
+				<a href="https://www.linkedin.com/in/cynthia-au/" target="_blank" class="icon-link">
+					<i class="fab fa-linkedin"></i>
+				</a>
+			</span>
+		</div>
+
+		<!-- About -->
+		<div class="section-container about" id="about">
+			<p class="section-title">ABOUT</p>
+			<p class="section-subtitle">An introduction to myself</p>
+			<hr class="line" />
+
+			<div class="section-body">
+				<img class="headshot left" src="media/me.JPEG" alt="Cynthia Au" />
+
+				<div class="section-text">
+					Hi, my name is Cynthia. I recently obtained my B.S. in Computer Science with an emphasis on
+					Information from UC Irvine. Currently, I am a Quality Engineer at VMware contributing to their
+					automation framework. I love solving complex problems through computer programming, as the reason
+					why I first started my coding journey was because of my love for puzzles! I also enjoy dabbling in
+					web development in my free time. Outside of my work, you can find me exploring new foods and places!
+				</div>
+
+				<div class="section-alt left">
+					<p class="section-alt-title">LANGUAGES</p>
+					<table class="language">
+						<tr>
+							<!-- Java progress bar -->
+							<td class="language-cell">
+								Java:
+							</td>
+							<td>
+								<progress id="java-bar" max="100" value="90"></progress>
+							</td>
+						</tr>
+
+						<tr>
+							<!-- Python progress bar -->
+							<td class="language-cell">
+								Python:
+							</td>
+							<td>
+								<progress id="python-bar" max="100" value="70"></progress>
+							</td>
+						</tr>
+
+						<tr>
+							<!-- JS progress bar -->
+							<td class="language-cell">
+								JavaScript:
+							</td>
+							<td>
+								<progress id="javascript-bar" max="100" value="80"></progress>
+							</td>
+						</tr>
+
+						<tr>
+							<!-- Webdev progress bar -->
+							<td class="language-cell">
+								HTML/CSS:
+							</td>
+							<td>
+								<progress id="wd-bar" max="100" value="60"></progress>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="section-alt right">
+					<p class="section-alt-title">TECHNOLOGIES</p>
+					<table>
+						<tr>
+							<td class="section-text">
+								<ul>
+									<li>Git</li>
+									<li>Angular</li>
+									<li>React</li>
+									<li>RESTful Applications</li>
+								</ul>
+							</td>
+							<td class="section-text" valign="top">
+								<ul>
+									<li>Google Cloud Platform</li>
+									<li>MongoDB</li>
+									<li>SQL</li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+
+		<!-- Experience -->
+		<div class="section-container experience" id="experience">
+			<p class="section-title">EXPERIENCE</p>
+			<p class="section-subtitle">My professional journey</p>
+			<hr class="line" />
+			<div class="section-body">
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus consequuntur aliquam dolores,
+				voluptate reprehenderit sunt reiciendis quidem numquam tempora eaque natus quaerat, dolorum corporis
+				ipsum. Corrupti omnis rem magnam non.
+			</div>
+		</div>
+
+		<!-- Projects -->
+		<div class="section-container projects" id="projects">
+			<p class="section-title">PROJECTS</p>
+			<p class="section-subtitle">Some of my work</p>
+			<hr class="line" />
+			<div class="section-body">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad sed in fugiat esse ratione, illo ea
+				tenetur? Hic laboriosam qui vitae soluta suscipit modi neque corrupti blanditiis consequatur id! Unde.
+			</div>
+		</div>
+	</body>
+</html>
