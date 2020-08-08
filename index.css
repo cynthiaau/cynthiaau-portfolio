@@ -80,7 +80,8 @@ i:hover {
 	background-color: #112240;
 }
 
-.experience {
+.experience,
+.contact {
 	background-color: #374b6e;
 }
 
@@ -145,6 +146,7 @@ i:hover {
 	color: #00ad90;
 	font-size: 1.1em;
 	margin-bottom: 3vmin;
+	text-shadow: 2px 2px black;
 }
 
 .left {
