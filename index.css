@@ -75,13 +75,11 @@ i:hover {
 	padding: 10vmin 0;
 }
 
-.about,
-.projects {
+.dark-blue {
 	background-color: #112240;
 }
 
-.experience,
-.contact {
+.light-blue {
 	background-color: #374b6e;
 }
 
