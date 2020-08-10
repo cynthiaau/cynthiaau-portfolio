@@ -22,7 +22,7 @@ p {
 
 .nav-options {
 	color: white;
-	padding: 10px 35px;
+	padding: 1vh 3vh;
 	display: inline-block;
 	text-decoration: none;
 }
@@ -33,7 +33,7 @@ p {
 
 .home {
 	/* background */
-	background-image: url("media/blurred-lights.jpg");
+	background-image: url("../media/blurred-lights.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -138,6 +138,8 @@ i:hover {
 	width: 45%;
 	display: inline-block;
 	padding-top: 7vmin;
+	font-size: 1em;
+	text-align: center;
 }
 
 .section-alt-title {
@@ -153,6 +155,10 @@ i:hover {
 
 .right {
 	float: right;
+}
+
+table {
+	margin: 0 auto;
 }
 
 progress {
@@ -199,10 +205,18 @@ table.language {
 	text-align: right;
 	font-size: 1.3em;
 	color: #a6abbd;
-	width: 25%;
+	width: 30%;
 	padding-right: 5%;
+}
+
+ul {
+	padding: 0;
 }
 
 li {
 	margin-bottom: 20px;
+}
+
+td.section-text {
+	width: 50%;
 }

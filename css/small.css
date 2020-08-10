@@ -1,0 +1,14 @@
+@media all and (max-width: 880px) {
+	.nav-bar {
+		font-size: 0.75em;
+	}
+
+	.headshot {
+		width: 50%;
+		margin: 10% 25%;
+	}
+
+	.section-alt {
+		width: 100%;
+	}
+}
