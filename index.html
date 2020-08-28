@@ -21,6 +21,12 @@
 		<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" /> -->
 		<script src="js/scripts.js"></script>
 		<meta content="width=device-width, initial-scale=1" name="viewport" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+			crossorigin="anonymous"
+		/>
 	</head>
 
 	<body>
@@ -37,9 +43,7 @@
 		<div class="home" id="home">
 			<span>
 				<b class="name">Cynthia Au</b><br />
-				<p class="subtext">
-					Software Engineer
-				</p>
+				<p class="subtext">Software Engineer</p>
 
 				<a href="mailto:auc2@uci.edu" target="_blank" class="icon-link">
 					<i class="fas fa-envelope"></i>
@@ -60,82 +64,43 @@
 			<hr class="line" />
 
 			<div class="section-body">
-				<img class="headshot left" src="media/me.JPEG" alt="Cynthia Au" />
+				<div class="row">
+					<div class="col-sm-3 col-md-3 col-lg-3">
+						<img class="headshot" src="media/me.JPEG" alt="Cynthia Au" />
+					</div>
 
-				<div class="section-text">
-					Hi, my name is Cynthia. I recently obtained my B.S. in Computer Science with an emphasis on
-					Information from UC Irvine. Currently, I am a Quality Engineer at VMware contributing to their
-					automation framework. I love solving complex problems through computer programming, as the reason
-					why I first started my coding journey was because of my love for puzzles! I also enjoy dabbling in
-					web development in my free time. Outside of my work, you can find me exploring new foods and places!
+					<div class="section-text col-sm-9 col-md-9 col-lg-9">
+						Hi, my name is Cynthia. I recently obtained my B.S. in Computer Science with an emphasis on
+						Information from UC Irvine. I love solving complex problems, as the reason why I first started
+						my coding journey was because of my love for puzzles! I am passionate about simplifying
+						processes through the power of computer programming. I also enjoy dabbling in web development in
+						my free time. Outside of my work, you can find me rock climbing, spending time with family and
+						friends, and exploring new foods and places!
+					</div>
 				</div>
 
-				<div class="section-alt left">
-					<p class="section-alt-title">LANGUAGES</p>
-					<table class="language">
-						<tr>
-							<!-- Java progress bar -->
-							<td class="language-cell">
-								Java:
-							</td>
-							<td>
-								<progress id="java-bar" max="100" value="90"></progress>
-							</td>
-						</tr>
-
-						<tr>
-							<!-- Python progress bar -->
-							<td class="language-cell">
-								Python:
-							</td>
-							<td>
-								<progress id="python-bar" max="100" value="70"></progress>
-							</td>
-						</tr>
-
-						<tr>
-							<!-- JS progress bar -->
-							<td class="language-cell">
-								JavaScript:
-							</td>
-							<td>
-								<progress id="javascript-bar" max="100" value="80"></progress>
-							</td>
-						</tr>
-
-						<tr>
-							<!-- Webdev progress bar -->
-							<td class="language-cell">
-								HTML/CSS:
-							</td>
-							<td>
-								<progress id="wd-bar" max="100" value="60"></progress>
-							</td>
-						</tr>
-					</table>
-				</div>
-				<div class="section-alt right">
-					<p class="section-alt-title">TECHNOLOGIES</p>
-					<table>
-						<tr>
-							<td class="section-text">
-								<ul>
-									<li>Git</li>
-									<li>Angular</li>
-									<li>React</li>
-									<li>RESTful Applications</li>
-								</ul>
-							</td>
-							<td class="section-text" valign="top">
-								<ul>
-									<li>Google Cloud Platform</li>
-									<li>MongoDB</li>
-									<li>SQL</li>
-								</ul>
-							</td>
-						</tr>
-					</table>
-				</div>
+				<!-- <div class="row">
+					<div class="col-sm-6 col-md-6 col-lg-6 section-alt">
+						<p class="section-alt-title">LANGUAGES</p>
+						<ul>
+							<li>
+								Python
+							</li>
+							<li>
+								Java
+							</li>
+							<li>
+								JavaScript
+							</li>
+							<li>
+								HTML/CSS
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-6 section-alt">
+						<p class="section-alt-title">TECHNOLOGIES</p>
+					</div>
+				</div> -->
 			</div>
 		</div>
 
@@ -145,9 +110,81 @@
 			<p class="section-subtitle">My professional journey</p>
 			<hr class="line" />
 			<div class="section-body">
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus consequuntur aliquam dolores,
-				voluptate reprehenderit sunt reiciendis quidem numquam tempora eaque natus quaerat, dolorum corporis
-				ipsum. Corrupti omnis rem magnam non.
+				<div class="row">
+					<div class="col-sm-4 col-md-4 col-lg-4 job-title">
+						<div class="col-padding">Quality Engineer</div>
+					</div>
+					<div class="col-sm-8 col-md-8 col-lg-8 job-description">
+						<div class="col-padding">
+							<p class="company"><u>VMware</u>
+								<a href="https://www.vmware.com" target="_blank" class="icon-link">
+									<i class="fas fa-external-link-alt"></i>
+								</a>
+							</p>
+							<p class="exp-date">Jul. 2020 - present</p>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum amet recusandae
+								pariatur fuga dicta aperiam laboriosam, exercitationem rem explicabo rerum, soluta
+								sapiente? Illum reprehenderit tenetur possimus voluptatibus harum quod ducimus?
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-4 col-lg-4 job-title">
+						<div class="col-padding">Web Development Intern</div>
+					</div>
+					<div class="col-sm-8 col-md-8 col-lg-8 job-description">
+						<div class="col-padding">
+							<p class="company"><u>Intelligent Education</u>
+								<a href="https://ieduweb.com/" target="_blank" class="icon-link">
+									<i class="fas fa-external-link-alt"></i>
+								</a>
+							</p>
+							<p class="exp-date">Jan. 2020 - Jul. 2020</p>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum amet recusandae
+								pariatur fuga dicta aperiam laboriosam, exercitationem rem explicabo rerum, soluta
+								sapiente? Illum reprehenderit tenetur possimus voluptatibus harum quod ducimus?
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-4 col-lg-4 job-title">
+						<div class="col-padding">Software Engineer Intern</div>
+					</div>
+					<div class="col-sm-8 col-md-8 col-lg-8 job-description">
+						<div class="col-padding">
+							<p class="company"><u>Personable, Inc.</u>
+								<a href="http://solutions.personable.com/" target="_blank" class="icon-link">
+									<i class="fas fa-external-link-alt"></i>
+								</a>
+							</p>
+							<p class="exp-date">Nov. 2018 - Jul. 2019</p>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum amet recusandae
+								pariatur fuga dicta aperiam laboriosam, exercitationem rem explicabo rerum, soluta
+								sapiente? Illum reprehenderit tenetur possimus voluptatibus harum quod ducimus?
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-4 col-lg-4 job-title">
+						<div class="col-padding">Student Technician</div>
+					</div>
+					<div class="col-sm-8 col-md-8 col-lg-8 job-description">
+						<div class="col-padding">
+							<p class="company">
+								<u>Claire Trevor School of the Arts, UCI</u>
+								<a href="https://www.arts.uci.edu/" target="_blank" class="icon-link">
+									<i class="fas fa-external-link-alt"></i>
+								</a></i>
+							</p>
+							<p class="exp-date">Sept. 2017 - Nov. 2018</p>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum amet recusandae
+								pariatur fuga dicta aperiam laboriosam, exercitationem rem explicabo rerum, soluta
+								sapiente? Illum reprehenderit tenetur possimus voluptatibus harum quod ducimus?
+							</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 
