@@ -31,6 +31,10 @@ p {
 	color: #f4bf3a;
 }
 
+.menu {
+	color: white;
+}
+
 .home {
 	/* background */
 	background-image: url("../media/blurred-lights.jpg");
@@ -70,6 +74,11 @@ i:hover {
 }
 
 .icon-link {
+	color: white;
+	text-decoration: none;
+}
+
+.icon-link:hover {
 	color: white;
 	text-decoration: none;
 }
@@ -156,23 +165,26 @@ i:hover {
 
 .job-title {
 	text-align: right;
-	border-right: 3px solid #a6abbd;
-	font-size: 1.75em;
+	font-size: 1.5em;
 	color: white;
+	direction: rtl;
 }
 
 .company {
 	font-size: 1.75em;
 	color: white;
-	margin: 0;
-	padding: 0;
+	margin: 0 0;
+	padding: 0 0;
 }
 
 .job-description {
 	text-align: left;
+	border-left: 3px solid #a6abbd;
+	margin: 0 0;
+	padding: 0 0;
 }
 
-.job-title::after {
+.job-description::before {
 	content: "";
 	position: absolute;
 	border: 2px solid white;
@@ -181,7 +193,7 @@ i:hover {
 	background-color: #00ad90;
 	border-radius: 50%;
 	top: 20px;
-	right: -11px;
+	left: -11px;
 }
 
 .exp-date {
@@ -198,4 +210,9 @@ i:hover {
 	margin: 0;
 	padding: 0 5px;
 	font-size: 0.4em;
+}
+
+.job-text {
+	font-size: 1.25em;
+	color: white;
 }

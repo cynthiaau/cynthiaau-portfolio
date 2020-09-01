@@ -3,3 +3,42 @@
 		font-size: 0.75em;
 	}
 }
+
+@media all and (max-width: 576px) {
+	.job-title {
+		text-align: left;
+		border-left: 3px solid #a6abbd;
+		margin: 0 0;
+		padding: 0 0;
+	}
+
+	.job-title::before {
+		content: "";
+		position: absolute;
+		border: 2px solid white;
+		width: 18px;
+		height: 18px;
+		background-color: #00ad90;
+		border-radius: 50%;
+		top: 20px;
+		left: -11px;
+	}
+
+	.job-description {
+		margin-top: -20px;
+	}
+
+	.job-description::before {
+		content: "";
+		position: absolute;
+		border: 0px solid white;
+		width: 0px;
+		height: 0px;
+	}
+}
+
+@media all and (min-width: 509px) {
+	.menu {
+		display: none;
+	}
+}
